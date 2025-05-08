@@ -7,22 +7,22 @@ app.use(express.json());
 
 
 
-const sequelize = new Sequelize ("texas", "root", "P@ssword",{
-    host : "localhost",
-    dialect : "mysql",
-});
+// const sequelize = new Sequelize ("random", "root", "",{
+//     host : "localhost",
+//     dialect : "mysql",
+// });
 
-sequelize
-    .authenticate()
-    .then(() =>{
-        console.log("Db connected successfully");
-    })
+// sequelize
+//     .authenticate()
+//     .then(() =>{
+//         console.log("Db connected successfully");
+//     })
 
-.catch((err)=>{
-    console.log(err);
-});
+// .catch((err)=>{
+//     console.log(err);
+// });
 
-
+// app.listen(3000);
 
 //logger middleware
 app.use((req,res,next)=>{
