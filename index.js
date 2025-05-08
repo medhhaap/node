@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 
-
+   
 // const sequelize = new Sequelize ("random", "root", "",{
 //     host : "localhost",
 //     dialect : "mysql",
